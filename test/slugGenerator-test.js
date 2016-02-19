@@ -34,4 +34,8 @@ describe('Slug generator', function () {
 
         actual.should.be.equal('hello-frontend-fellows');
     });
+
+    it('should failed', function () {
+        false.should.be.true;
+    });
 });
