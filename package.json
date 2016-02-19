@@ -1,0 +1,28 @@
+{
+  "name": "test-examples",
+  "version": "0.0.1",
+  "description": "Tests for CI example",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhigalov/frontend-fellows-test.git"
+  },
+  "keywords": [
+    "Test",
+    "examples",
+    "JavaScript"
+  ],
+  "author": "Sergey Zhigalov <zhigalov@yandex-team.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zhigalov/frontend-fellows-test/issues"
+  },
+  "homepage": "https://github.com/Zhigalov/frontend-fellows-test#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
