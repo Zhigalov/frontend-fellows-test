@@ -23,6 +23,14 @@
   "homepage": "https://github.com/Zhigalov/frontend-fellows-test#readme",
   "dependencies": {
     "chai": "3.5.0",
-    "mocha": "2.4.5"
+    "got": "6.1.1",
+    "translit": "0.0.1",
+    "translit-russian": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "2.4.5",
+    "mockery": "1.4.0",
+    "nock": "7.2.2",
+    "sinon": "1.17.3"
   }
 }
