@@ -70,8 +70,8 @@ describe('Slug generator', function () {
             })
             .then(done, done);
     });
-    
-    it('should fail', function() {
-        true.should.be.false;
-    })
+
+    // it('should fail', function() {
+    //     true.should.be.false;
+    // });
 });
