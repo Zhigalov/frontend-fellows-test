@@ -29,6 +29,7 @@
     "translit-russian": "0.0.2"
   },
   "devDependencies": {
+    "istanbul": "^0.4.2",
     "mocha": "2.4.5",
     "mockery": "1.4.0",
     "nock": "7.2.2",

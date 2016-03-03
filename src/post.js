@@ -1,4 +1,4 @@
-var slugGenerator = require('./slugGenerator');
+var generateNoteId = require('./generateNoteId');
 var url = 'mongodb://localhost:27017/test';
 var MongoClient = require('mongodb').MongoClient;
 
@@ -6,7 +6,7 @@ var MongoClient = require('mongodb').MongoClient;
  * Добавляет запись в базу
  */
 module.exports = function (title) {
-    var slug = slugGenerator.translit(title);
+    var slug = generateNoteId(title);
     var connect;
 
     return MongoClient
