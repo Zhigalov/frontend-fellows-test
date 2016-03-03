@@ -75,3 +75,4 @@ describe('Slug generator', function () {
         true.should.be.false;
     });
 });
+
