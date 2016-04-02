@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ru" data-scribe-reduced-action-queue="true"><!--<![endif]-->
+<head>
+    <!-- стили для mocha -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css">
+
+    <title>Регистрация</title>
+    <meta name="robots" content="NOODP">
+    <meta name="description"
+          content="Присоединитесь к Твиттеру сегодня — это займёт всего несколько секунд. Оставайтесь на связи с друзьями и другими замечательными людьми. Будьте в курсе свежих новостей о том, что вам интересно.">
+
+    <link href="https://abs.twimg.com/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+</head>
+<body class="three-col logged-out western ru phx-signup fast-signup"
+      data-fouc-class-names="swift-loading"
+      dir="ltr">
+
+<div id="doc" class="route-signup">
+    <div class="topbar js-topbar">
+        <div class="global-nav global-nav--newLoggedOut" data-section-term="top_nav">
+            <div class="global-nav-inner">
+                <div class="container">
+                    <div class="pull-right">
+                        <ul class="nav secondary-nav language-dropdown">
+                            <li class="dropdown js-language-dropdown">
+                                <a href="#supported_languages" class="dropdown-toggle js-dropdown-toggle">
+                                    <small>Язык:</small>
+                                    <span class="js-current-language">Русский</span> <b class="caret"></b>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <div class="dropdown-caret right">
+                                        <span class="caret-outer"> </span>
+                                        <span class="caret-inner"></span>
+                                    </div>
+                                    <ul id="supported_languages">
+                                        <li><a href="?lang=bg" data-lang-code="bg" title="Болгарский"
+                                               class="js-language-link js-tooltip">Български език</a></li>
+                                        <li><a href="?lang=sr" data-lang-code="sr" title="Сербский"
+                                               class="js-language-link js-tooltip">Српски</a></li>
+                                        <li><a href="?lang=uk" data-lang-code="uk" title="Украинский"
+                                               class="js-language-link js-tooltip">Українська мова</a></li>
+                                        <li><a href="?lang=id" data-lang-code="id" title="Индонезийский"
+                                               class="js-language-link js-tooltip">Bahasa Indonesia</a></li>
+                                        <li><a href="?lang=msa" data-lang-code="msa" title="Малайский"
+                                               class="js-language-link js-tooltip">Bahasa Melayu</a></li>
+                                        <li><a href="?lang=ca" data-lang-code="ca" title="Каталанский"
+                                               class="js-language-link js-tooltip">Català</a></li>
+                                        <li><a href="?lang=cs" data-lang-code="cs" title="Чешский"
+                                               class="js-language-link js-tooltip">Čeština</a></li>
+                                        <li><a href="?lang=da" data-lang-code="da" title="Датский"
+                                               class="js-language-link js-tooltip">Dansk</a></li>
+                                        <li><a href="?lang=de" data-lang-code="de" title="Немецкий"
+                                               class="js-language-link js-tooltip">Deutsch</a></li>
+                                        <li><a href="?lang=en" data-lang-code="en" title="Английский"
+                                               class="js-language-link js-tooltip">English</a></li>
+                                        <li><a href="?lang=en-gb" data-lang-code="en-gb" title="Британский английский"
+                                               class="js-language-link js-tooltip">English UK</a></li>
+                                        <li><a href="?lang=es" data-lang-code="es" title="Испанский"
+                                               class="js-language-link js-tooltip">Español</a></li>
+                                        <li><a href="?lang=fil" data-lang-code="fil" title="Филиппинский"
+                                               class="js-language-link js-tooltip">Filipino</a></li>
+                                        <li><a href="?lang=fr" data-lang-code="fr" title="Французский"
+                                               class="js-language-link js-tooltip">Français</a></li>
+                                        <li><a href="?lang=hr" data-lang-code="hr" title="Хорватский"
+                                               class="js-language-link js-tooltip">Hrvatski</a></li>
+                                        <li><a href="?lang=it" data-lang-code="it" title="Итальянский"
+                                               class="js-language-link js-tooltip">Italiano</a></li>
+                                        <li><a href="?lang=hu" data-lang-code="hu" title="Венгерский"
+                                               class="js-language-link js-tooltip">Magyar</a></li>
+                                        <li><a href="?lang=nl" data-lang-code="nl" title="Голландский"
+                                               class="js-language-link js-tooltip">Nederlands</a></li>
+                                        <li><a href="?lang=no" data-lang-code="no" title="Норвежский"
+                                               class="js-language-link js-tooltip">Norsk</a></li>
+                                        <li><a href="?lang=pl" data-lang-code="pl" title="Польский"
+                                               class="js-language-link js-tooltip">Polski</a></li>
+                                        <li><a href="?lang=pt" data-lang-code="pt" title="Португальский"
+                                               class="js-language-link js-tooltip">Português</a></li>
+                                        <li><a href="?lang=ro" data-lang-code="ro" title="Румынский"
+                                               class="js-language-link js-tooltip">Română</a></li>
+                                        <li><a href="?lang=sk" data-lang-code="sk" title="Словацкий"
+                                               class="js-language-link js-tooltip">Slovenčina</a></li>
+                                        <li><a href="?lang=fi" data-lang-code="fi" title="Финский"
+                                               class="js-language-link js-tooltip">Suomi</a></li>
+                                        <li><a href="?lang=sv" data-lang-code="sv" title="Шведский"
+                                               class="js-language-link js-tooltip">Svenska</a></li>
+                                        <li><a href="?lang=vi" data-lang-code="vi" title="Вьетнамский"
+                                               class="js-language-link js-tooltip">Tiếng Việt</a></li>
+                                        <li><a href="?lang=tr" data-lang-code="tr" title="Турецкий"
+                                               class="js-language-link js-tooltip">Türkçe</a></li>
+                                        <li><a href="?lang=el" data-lang-code="el" title="Греческий"
+                                               class="js-language-link js-tooltip">Ελληνικά</a></li>
+                                        <li><a href="?lang=he" data-lang-code="he" title="Иврит"
+                                               class="js-language-link js-tooltip">עִבְרִית</a></li>
+                                        <li><a href="?lang=ar" data-lang-code="ar" title="Арабский"
+                                               class="js-language-link js-tooltip">العربية</a></li>
+                                        <li><a href="?lang=fa" data-lang-code="fa" title="Персидский"
+                                               class="js-language-link js-tooltip">فارسی</a></li>
+                                        <li><a href="?lang=mr" data-lang-code="mr" title="Маратхи"
+                                               class="js-language-link js-tooltip">मराठी</a></li>
+                                        <li><a href="?lang=hi" data-lang-code="hi" title="Хинди"
+                                               class="js-language-link js-tooltip">हिन्दी</a></li>
+                                        <li><a href="?lang=bn" data-lang-code="bn" title="Бенгальский"
+                                               class="js-language-link js-tooltip">বাংলা</a></li>
+                                        <li><a href="?lang=gu" data-lang-code="gu" title="Гуджарати"
+                                               class="js-language-link js-tooltip">ગુજરાતી</a></li>
+                                        <li><a href="?lang=ta" data-lang-code="ta" title="Тамильский"
+                                               class="js-language-link js-tooltip">தமிழ்</a></li>
+                                        <li><a href="?lang=kn" data-lang-code="kn" title="Каннада"
+                                               class="js-language-link js-tooltip">ಕನ್ನಡ</a></li>
+                                        <li><a href="?lang=th" data-lang-code="th" title="Тайский"
+                                               class="js-language-link js-tooltip">ภาษาไทย</a></li>
+                                        <li><a href="?lang=ko" data-lang-code="ko" title="Корейский"
+                                               class="js-language-link js-tooltip">한국어</a></li>
+                                        <li><a href="?lang=ja" data-lang-code="ja" title="Японский"
+                                               class="js-language-link js-tooltip">日本語</a></li>
+                                        <li><a href="?lang=zh-cn" data-lang-code="zh-cn" title="Упрощенный китайский"
+                                               class="js-language-link js-tooltip">简体中文</a></li>
+                                        <li><a href="?lang=zh-tw" data-lang-code="zh-tw" title="Традиционный китайский"
+                                               class="js-language-link js-tooltip">繁體中文</a></li>
+                                    </ul>
+                                </div>
+                                <div class="js-front-language">
+                                    <form action="/sessions/change_locale" class="t1-form language" method="POST">
+                                        <input type="hidden" name="lang"> <input type="hidden" name="redirect">
+                                        <input type="hidden" name="authenticity_token"
+                                               value="993a71ee5537065de9025d01f247c9d88849ff6f">
+                                    </form>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="nav secondary-nav session-dropdown" id="session">
+                            <li class="dropdown js-session">
+                                <a href="/login" class="dropdown-toggle js-dropdown-toggle dropdown-signin"
+                                   id="signin-link" data-nav="login">
+                                    <small>Уже зарегистрированы?</small>
+                                    <span class="emphasize"> Войти</span><span class="caret"></span>
+                                </a>
+                                <div class="dropdown-menu dropdown-form" id="signin-dropdown">
+                                    <div class="dropdown-caret right"><span class="caret-outer"></span> <span
+                                            class="caret-inner"></span></div>
+                                    <div class="signin-dialog-body">
+                                        <div>Уже зарегистрированы?</div>
+                                        <form action="https://twitter.com/sessions" class="LoginForm js-front-signin"
+                                              method="post"
+                                              data-component="login_callout"
+                                              data-element="form"
+                                        >
+                                            <div class="LoginForm-input LoginForm-username">
+                                                <input
+                                                        type="text"
+                                                        class="text-input email-input js-signin-email"
+                                                        name="session[username_or_email]"
+                                                        autocomplete="username"
+                                                        placeholder="Телефон, e-mail или имя пользователя"
+                                                />
+                                            </div>
+
+                                            <div class="LoginForm-input LoginForm-password">
+                                                <input type="password" class="text-input" name="session[password]"
+                                                       placeholder="Пароль" autocomplete="current-password">
+                                            </div>
+
+                                            <div class="LoginForm-rememberForgot">
+                                                <label>
+                                                    <input type="checkbox" value="1" name="remember_me"
+                                                           checked="checked">
+                                                    <span>Запомнить</span>
+                                                </label>
+                                                <span class="separator">&middot;</span>
+                                                <a class="forgot" href="/account/begin_password_reset">Забыли
+                                                    пароль?</a>
+                                            </div>
+
+                                            <input type="submit" class="submit btn primary-btn js-submit" value="Войти">
+
+                                            <input type="hidden" name="return_to_ssl" value="true">
+
+                                            <input type="hidden" name="scribe_log">
+                                            <input type="hidden" name="redirect_after_login" value="/signup">
+                                            <input type="hidden" value="993a71ee5537065de9025d01f247c9d88849ff6f"
+                                                   name="authenticity_token">
+                                        </form>
+
+                                        <hr>
+                                        <div class="signup SignupForm">
+                                            <div class="SignupForm-header">Не пользуетесь Твиттером?</div>
+                                            <a href="https://twitter.com/signup" role="button"
+                                               class="SignupForm-submit u-block u-textCenter js-signup btn"
+                                               data-component="signup_callout"
+                                               data-element="dropdown"
+                                            >Регистрация
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="page-outer">
+        <div id="page-container" class="AppContent wrapper wrapper-signup">
+
+            <link href="http://abs.twimg.com/a/1459301364/css/t1/t1_signup.bundle.css" rel="stylesheet">
+            <div class="page-canvas">
+                <div class="signup-wrapper">
+                    <h1>
+                        Присоединяйтесь к Твиттеру сегодня.
+                    </h1>
+
+                    <form id="phx-signup-form" method="POST" action="https://twitter.com/account/create"
+                          class="t1-form signup ">
+                        <input type="hidden" value="993a71ee5537065de9025d01f247c9d88849ff6f"
+                               name="authenticity_token"/>
+
+                        <input type="hidden" name="signup_ui_metrics" autocomplete="off">
+                        <!--<script src="/i/js_inst?c_name=signup_ui_metrics" async></script>-->
+
+
+                        <div class="textbox">
+
+                            <div class="prompt name">
+                                <div class="field" data-fieldname="name">
+                                    <div class="sidetip">
+                                        <p class="ok isaok">&nbsp;</p>
+                                        <p class="blank invalid error" role="alert">Как вас зовут?</p>
+                                        <p class="notwitter error" role="alert">Ваше имя не может содержать слово
+                                            «Twitter».</p>
+                                    </div>
+                                    <input id="full-name" type="text" autocomplete="off" value="" name="user[name]"
+                                           maxlength="20" aria-required="true" placeholder="Имя и фамилия"/>
+                                </div>
+                            </div>
+
+                            <div class="prompt email">
+                                <div class="field" data-fieldname="email">
+                                    <div class="sidetip">
+                                        <p class="ok isaok">&nbsp;</p>
+                                        <p class="checking">Проверка...</p>
+                                        <p class="invalid error" role="alert">Введите действительный адрес электронной
+                                            почты</p>
+                                        <p class="invalid_phone error" role="alert">Пожалуйста, введите действительный
+                                            номер
+                                            телефона. </p>
+                                        <p class="blank error" role="alert">Введите правильный номер телефона или адрес
+                                            электронной почты.</p>
+                                        <p class="taken error " role="alert">Данный адрес электронной почты уже
+                                            зарегистрирован. Хотите <a href="/login">войти</a> или <a
+                                                    href="/account/begin_password_reset">восстановить пароль</a>?</p>
+                                        <p class="phone_taken error" role="alert">Зарегистрировать этот номер телефона в
+                                            данный момент невозможно. Попробуйте зарегистрироваться с помощью
+                                            электронной
+                                            почты.</p>
+                                        <p class="domain">Может быть, вы имели в виду <em><a role="button"
+                                                                                             class="js-email-correction"
+                                                                                             href="#"></a></em>?</p>
+                                    </div>
+                                    <input id="email" class="email-input" type="text" autocomplete="off" value=""
+                                           name="user[email]" aria-required="true"
+                                           placeholder="Номер телефона или электронная почта"/>
+                                    <div class="sms-consent">Мы отправим сообщение с кодом подтверждения на указанный
+                                        номер.
+                                        За SMS-сообщение может взиматься плата по вашему тарифному плану.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="prompt password">
+                                <div class="field" data-fieldname="password">
+                                    <div class="sidetip">
+                                        <p class="ok isaok perfect weak">&nbsp;</p>
+                                        <p class="weak error" role="alert">Придумайте более сложный пароль пароль.</p>
+                                        <p class="obvious error" role="alert">Придумайте более сложный пароль
+                                            пароль.</p>
+                                        <p class="invalid error" role="alert">Ваш пароль должен состоять как минимум из
+                                            6
+                                            символов.</p>
+                                        <p class="blank error" role="alert">Введите пароль.</p>
+                                    </div>
+                                    <input id="password" type="password" value="" name="user[user_password]"
+                                           aria-required="true" placeholder="Пароль"/>
+                                </div>
+                                <div class="score"><span><b class="fill"></b></span></div>
+                            </div>
+
+                            <div class="prompt optin">
+                                <label class="t1-label">
+                                    <input type="checkbox" checked="checked" name="user[use_cookie_personalization]"
+                                           value="1"/>
+                                    <input type="hidden" name="asked_cookie_personalization_setting" value="1"/>
+                                <span>Адаптировать Твиттер исходя из недавно посещённых веб-страниц. <a
+                                        class="cookie-personalization-support"
+                                        href="https://support.twitter.com/articles/20169421"
+                                        target="_blank">Подробнее</a>.</span>
+                                </label>
+                            </div>
+
+                            <!-- <input type="hidden" name="ad_ref" value=""> -->
+                        </div>
+
+                        <div class="standby">
+                            <p>Создание учётной записи&hellip;</p>
+                        </div>
+
+                        <div class="doit">
+                            <div class="sign-up-box">
+                                <input class="submit button signup"
+                                       type="submit"
+                                       id="submit_button"
+                                       value=
+                                               "Регистрация"
+
+                                >
+                            </div>
+                        </div>
+
+                        <div class="befound">
+                            <p>Регистрируясь, вы соглашаетесь с <a href="/tos" class="legal-link" target="_blank">Условиями
+                                предоставления услуг</a> и <a href="/privacy" class="legal-link" target="_blank">Политикой
+                                конфиденциальности</a>, а также с <a
+                                    href="https://support.twitter.com/articles/20170514"
+                                    class="legal-link" target="_blank">Правилами
+                                использования файлов Cookie</a>. Другие пользователи смогут найти вас по электронной
+                                почте
+                                или номеру телефона (если вы его укажете).</p>
+                        </div>
+
+                        <div class="advanced-options">
+                            <div class="SlidedownOptions is-content-hidden">
+                                <div>
+                                    <a class="SlidedownOptions-headerLink" href="#" role="menu" aria-haspopup="true">Дополнительные
+                                        настройки</a>
+                                </div>
+                                <div class="SlidedownOptions-content">
+                                    <div class="prompt optin">
+                                        <label class="t1-label">
+                                            <input id="user_discoverable_by_email" name="user[discoverable_by_email]"
+                                                   type="checkbox" value="1" checked>
+                                            Меня можно найти по адресу электронной почты
+                                            <input type="hidden" name="asked_discoverable_by_email" value="1"/>
+                                        </label>
+                                        <label class="t1-label">
+                                            <input type="checkbox" id="user_mobile_discoverable"
+                                                   name="user[discoverable_by_mobile_phone]" checked value="1">
+                                            Меня можно найти по номеру телефона
+                                            <input type="hidden" name="asked_discoverable_by_mobile_phone" value="1"/>
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script>
+    $('#full-name').on('input', checkFillName);
+
+    function checkFillName() {
+        var name = $('#full-name').val();
+        var isTwitterContains = /twitter/i.test(name);
+
+        $('.notwitter').toggleClass('active', isTwitterContains)
+    }
+</script>
+
+<script src="../node_modules/sinon/pkg/sinon.js"></script>
+<script src="../node_modules/mocha/mocha.js"></script>
+<script src="../node_modules/chai/chai.js"></script>
+<script>
+    mocha.ui('bdd');
+    chai.should();
+</script>
+
+<div id="mocha"></div>
+
+<script src="./twitter.test.js"></script>
+
+<script>
+    window.mochaPhantomJS ?
+            mochaPhantomJS.run() :
+            mocha.run();
+</script>
+</body>
+</html>

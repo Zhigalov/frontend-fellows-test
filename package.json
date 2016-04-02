@@ -29,10 +29,15 @@
     "translit-russian": "0.0.2"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "istanbul": "^0.4.2",
-    "mocha": "2.4.5",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-mocha": "^0.2.2",
+    "mocha": "^2.4.5",
     "mockery": "1.4.0",
     "nock": "7.2.2",
-    "sinon": "1.17.3"
+    "sinon": "^1.17.3"
   }
 }
