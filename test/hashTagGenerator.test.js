@@ -26,7 +26,7 @@ describe.only('Hash tag generator', function () {
         actual.should.be.equal('#MyHaHa');
     });
 
-    it('should failed', function () {
-        true.should.be.false;
-    });
+    // it('should failed', function () {
+    //     true.should.be.false;
+    // });
 });
