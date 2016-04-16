@@ -26,9 +26,9 @@ describe.only('Hash tag generator', function () {
         actual.should.be.equal('#MyHaHa');
     });
 
-    it('should failed', function () {
-        var actual = { first: 'egg' };
-
-        actual.should.deep.equal({ first: 'chicken' });
-    });
+    // it('should failed', function () {
+    //     var actual = { first: 'egg' };
+    //
+    //     actual.should.deep.equal({ first: 'chicken' });
+    // });
 });
