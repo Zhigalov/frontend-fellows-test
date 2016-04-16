@@ -27,6 +27,8 @@ describe.only('Hash tag generator', function () {
     });
 
     // it('should failed', function () {
-    //     true.should.be.false;
+    //     var actual = { first: 'egg' };
+    //
+    //     actual.should.deep.equal({ first: 'chicken' });
     // });
 });
