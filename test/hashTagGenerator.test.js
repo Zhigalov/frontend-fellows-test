@@ -23,6 +23,6 @@ describe.only('Hash tag generator', function () {
     it('should clean extra symbols', function () {
         var actual = hasTagGenerator('#@%my-ha-ha!');
 
-        actual.should.be.equal('#MyHaHa');
+        actual.should.be.equal('#MyHaHa!');
     });
 });
